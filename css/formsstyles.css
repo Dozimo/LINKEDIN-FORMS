@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Inter&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    margin: 50px 450px 50px 450px;
+    border-style: groove;
+    border-width: 10px;
+    
+}
+
+
+.cover img{
+    position: relative;
+    height: 5%;
+    width: 100%;
+    display: flex;
+}
+
+.pp img{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    bottom: 250px;
+    left: 470px;
+}
+
+.names{
+    display: flex;
+    padding-top: 120px;
+    padding-left: 5px;
+    
+}
+
+.btn-upload{
+    
+    width: 40%;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    
+}
+
