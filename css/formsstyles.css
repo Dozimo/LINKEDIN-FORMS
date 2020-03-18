@@ -7,9 +7,8 @@
 body{
     font-family: 'Inter', sans-serif;
     margin: 50px 450px 50px 450px;
-    border-style: groove;
-    border-width: 10px;
-    
+    border: groove 4px black;
+    padding: 10px;
 }
 
 
@@ -46,3 +45,7 @@ body{
     
 }
 
+.float-btn-right{
+    float: right;
+    
+}
