@@ -47,5 +47,5 @@ body{
 
 .float-btn-right{
     float: right;
-    
+    justify-content: start;
 }
