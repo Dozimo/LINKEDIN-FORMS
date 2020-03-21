@@ -13,35 +13,38 @@
 <body>
     <div>
         
-        <div class="topimg">
+        
             <div class="cover">
                 <img src="Images/180293.jpg" alt="#" href="#">
+                <div class="pp">
+                    <img src="Images/pp.jpg" alt="#" href="#">
+                    </div>
             </div>
-            <div class="pp">
-            <img src="Images/pp.jpg" alt="#" href="#">
-            </div>
-        </div>
+            
+        
         <div class="names">
             <form>
                 <div class="hd">
                     <h1 class="text-info">Edit Intro</h1>
                 </div>
                 <div class="form-row">
-                  <div class="form-group col-sm-6">
+                  <div class="form-group input-name col-sm-6">
                     <label for="name">First Name *</label>
-                    <input type="text" id="name" name="name" required minlength="4" maxlength="20" size="35">
+                    <input type="text" id="name" name="name" required minlength="4" maxlength="20" size="33">
                   </div>
-                  <div class="form-group col-sm-6">
-            <label for="name">Last Name *</label>       
-           <input type="text" id="name" name="name" required
-            minlength="4" maxlength="20" size="35">
+                  <div class="form-group input-name col-sm-6">
+                    <label for="name">Last Name *</label>       
+                    <input type="text" id="name" name="name" required
+                    minlength="4" maxlength="20" size="33">
+                    <p>
+                        <a class="btn btn-link add-new float-btn-right" role="button" href="#">
+                          Add former name
+                        </a>
+                    </p>
                   </div>
+                  
                 </div>
-                <p>
-                    <a class="btn btn-link float-btn-right" role="button">
-                      Add former name
-                    </a>
-                </p>
+               
                 <div class="form-group">
                             <label for="headline">Headline *</label>
                             <textarea class="form-control" id="headline" rows="3"></textarea>
@@ -53,12 +56,13 @@
                               <option>N/A</option>
                               <option>Other</option>
                             </select>
+                            <p>
+                                <a class="btn btn-link add-new float-btn-right" role="button" href="#">
+                                    Add New Position
+                                  </a>
+                             </p>
                         </div>
-                        <p>
-                            <a class="btn add-new float-btn-right" role="button">
-                                Add New Position
-                              </a>
-                         </p>
+                       
                         <p>
                             <input type="checkbox" id="name" name="name">
                             <label for="name">Show Education at my Intro</label>
@@ -70,12 +74,13 @@
                               <option>Government Secondary School Owerri</option>
                               <option>Other</option>
                             </select>
+                            <p>
+                                <a class="btn btn-link add-new float-btn-right" role="button" href="#">
+                                    Add New Education
+                                  </a>
+                             </p>
                         </div>
-                        <p>
-                            <a class="btn add-new float-btn-right" role="button">
-                                Add New Education
-                              </a>
-                         </p>
+                        
                             <div class="form-group">
                                 <label for="country">Country/Region *</label>
                                 <input type="text" class="form-control" id="country" placeholder="Nigeria">
@@ -134,7 +139,7 @@
                             </div>
                             <p>
                                 <input type="checkbox" id="name" name="name">
-                                <label for="name">I am Currently working in thi inits role</label>
+                                <label for="name">I am Currently working in this role</label>
                             </p>
                             <div class="form-row">
                                 <div class="form-group col-sm-6">
@@ -174,7 +179,7 @@
                                                 </select>
                                             </div>
                                         </div>
-                                    </div> 
+                                     
                                 </div> 
                                 <div class="form-group col-sm-6">
                                     <label> End Date</label>
